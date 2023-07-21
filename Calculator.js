@@ -27,7 +27,7 @@ arr.forEach(button => {
             input.value = string;
         }
 
-                } else {
+        } else {
             const lastChar = string.charAt(string.length - 1);
             if (isOperator(lastChar) && isOperator(e.target.innerHTML)) {
                 string = string.substring(0, string.length - 1) + e.target.innerHTML;
